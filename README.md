@@ -4,14 +4,13 @@ CONTENTS
 ----------------------------------------------
 this file contains four folders:<br>
 1. Python Notebook: <br>
-		&emsp; contains the jupyter notebook that trained and tested classifier models
+	&emsp; contains the jupyter notebook that trained and tested classifier models
 2. NudgeExtension: <br>
-		contains extension folder
+	&emsp; contains extension folder
 3. NudgeExtensionLocal: <br>
-		contains extension folder for local server 
+	&emsp; contains extension folder for local server 
 4. Local Python Script: <br>
-		contains folder with the python script that runs on the heroku server (virtual environments and git not included)
-
+	&emsp; contains folder with the python script that runs on the heroku server (virtual environments and git not included)
 
 --------------------------------------------
 INSTRUCTIONS - Extension (THIS VERSION IS REDACTED)
@@ -38,9 +37,6 @@ INSTRUCTIONS - Extension Local
 --------------------------------------------
 Requirements
 --------------------------------------------
-For Extension Local
-	A python IDE 
-	The conda libraries in python
-	The flask, flask_cors libraries in python
+For Extension Local: A python IDE, The conda libraries in python, The flask, flask_cors libraries in python
 
 ------------------------------------------

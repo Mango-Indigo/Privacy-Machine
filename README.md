@@ -3,13 +3,13 @@
 CONTENTS
 ----------------------------------------------
 this file contains four folders:<br>
-1. Python Notebook
-		contains the jupyter notebook that trained and tested classifier models
-2. NudgeExtension
+1. Python Notebook: <br>
+		emsp contains the jupyter notebook that trained and tested classifier models
+2. NudgeExtension: <br>
 		contains extension folder
-3. NudgeExtensionLocal
+3. NudgeExtensionLocal: <br>
 		contains extension folder for local server 
-4. Local Python Script
+4. Local Python Script: <br>
 		contains folder with the python script that runs on the heroku server (virtual environments and git not included)
 
 

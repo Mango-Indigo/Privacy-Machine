@@ -2,20 +2,19 @@
 ----------------------------------------------
 CONTENTS
 ----------------------------------------------
-this file contains four folders and one file:<br>
-	Python Notebook
+this file contains four folders:<br>
+1. Python Notebook
 		contains the jupyter notebook that trained and tested classifier models
-	NudgeExtension
+2. NudgeExtension
 		contains extension folder
-	NudgeExtensionLocal
+3. NudgeExtensionLocal
 		contains extension folder for local server 
-	Local Python Script
+4. Local Python Script
 		contains folder with the python script that runs on the heroku server (virtual environments and git not included)
-	References.docx
-		all references used for the code 
+
 
 --------------------------------------------
-INSTRUCTIONS - Extension
+INSTRUCTIONS - Extension (THIS VERSION IS REDACTED)
 --------------------------------------------
 1. On Chrome Menu --> Extensions --> Manage Extensions 
 2. On the Extensions page, select Developer Mode

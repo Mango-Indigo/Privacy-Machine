@@ -4,7 +4,7 @@ CONTENTS
 ----------------------------------------------
 this file contains four folders:<br>
 1. Python Notebook: <br>
-		&emsp. contains the jupyter notebook that trained and tested classifier models
+		&emsp; contains the jupyter notebook that trained and tested classifier models
 2. NudgeExtension: <br>
 		contains extension folder
 3. NudgeExtensionLocal: <br>

@@ -2,7 +2,7 @@
 ----------------------------------------------
 CONTENTS
 ----------------------------------------------
-this file contains four folders and one file:
+this file contains four folders and one file:<br>
 	Python Notebook
 		contains the jupyter notebook that trained and tested classifier models
 	NudgeExtension

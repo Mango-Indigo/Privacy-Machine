@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Privacy Machine</title>
+	<style> 
+		h1 {
+				text-align: center;
+			}
+			
+		p {
+				font-size: 1.3em;
+			}
+			
+		select {
+				font-size: 1.3em;
+				text-align: center;
+			}
+		select:focus {
+			font-size: 1.3em !important;
+		}
+		textarea {
+			width:75%;
+			font-size: 2em;
+			max-width:1050px; display: block;margin-left: auto;margin-right: auto;
+		}
+
+	</style>
+  </head>
+  <body>
+	<h1> Welcome to Privacy Machine </h1>
+	<p> In the digital era, privacy is worth its weight in gold. <br><br>
+		This extension aims to personalise the journey to privacy. It does this by analysing your personality type and using prompts specialised for you.<br><br>
+		Currently, this extension uses Myers-Briggs Type Indicators(MBTI) to analyse your personality. See the image below for an explanation of the MBTI personality type.<br><br>
+   </p>
+		<img src="assets/MyersBriggsTypes.png" alt="MBTI"  style = "max-width:1050px; display: block;margin-left: auto;margin-right: auto;"> 
+	<h1> Choose your Personality Type </h1>
+	<p> Type some text in the box below and press the process button and this extension will analyse your personality using your text.<br><br>
+	</p>
+ 
+	<form id="data_block" method="post" action="/predict">
+	<textarea id="the_data" name="the_data" placeholder="Type your text here and click process" rows="4" cols = "50"></textarea>
+	<div id="result" style = "text-align: center;font-size: 1.3em;font-weight: bold;"></div>    
+	<br><br> 
+	<button id="process" style="text-align:center;font-size: 1.3em;color:white;background-color: green;display: block;margin-left: auto;margin-right: auto;">Process Text</button>
+	 </form>
+
+	<p align = "center">Press the save button if you are happy with our analysis or manually change your personality type and press save. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+	<select id="color">
+      <option value="ENFJ">ENFJ</option>
+      <option value="ENFP">ENFP</option>
+      <option value="ENTJ">ENTJ</option>
+      <option value="ENTP">ENTP</option>
+	  <option value="ESFJ">ESFJ</option>
+      <option value="ESFP">ESFP</option>
+      <option value="ESTJ">ESTJ</option>
+      <option value="ESTP">ESTP</option>
+	  <option value="INFJ">INFJ</option>
+      <option value="INFP">INFP</option>
+      <option value="INTJ">INTJ</option>
+      <option value="INTP">INTP</option>
+	  <option value="ISFJ">ISFJ</option>
+      <option value="ISFP">ISFP</option>
+      <option value="ISTJ">ISTJ</option>
+      <option value="ISTP">ISTP</option>
+    </select>
+	</p>
+	<br>
+
+	</p>
+    <div id="status" style = "text-align: center;font-size: 1.3em;font-weight: bold;"></div>
+    <button id="save" style ="text-align:center;font-size: 1.3em;color:white;background-color: green;justify-content:center;display: block;margin-left: auto;margin-right: auto;">Save</button>
+
+    <script src="options.js"></script>
+  </body>
+</html>
